@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav_bar{
+    background-color: whitesmoke;
+    height: 110px;
+    box-shadow: 1px 1px 20px slategray;
+}
+.nav_bar div{
+    display: inline-block;
+}
+.nav_bar ul{
+    display: inline-block;
+    float: right;
+}
+.nav_bar ul li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+.logo{
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 60px;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+.nav_item:hover{
+    color: rgb(224, 193, 135);
+}
+.icon_noti{
+    position: relative;
+    top: -12px;
+    background-color: black;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 50%;
+    font-size: 13px;
+    left: -7px;
+}
+.icon_noti:hover{
+    background-color: rgb(224, 193, 135);
+    color: black;
+}
+.bunner_img{
+    width: 100%;
+}
+.bunner_text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: grey;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.shop_now{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+    color: grey;
+}
+.shop_now:hover{
+    cursor: pointer;
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+    width: 105px;
+    height: 44px;
+}
+.header{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+.category{
+    width: 300px;
+    height: 100px;
+    margin-right: 1px;
+    margin-top: 4px;
+    background-color: transparent;
+    color: black;
+    box-shadow: none;
+    border: 0.05px solid grey;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.category:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* new arrival */
+
+.new_arrival_header{
+    margin-left: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.newarrivalimg a img{
+    width: 250px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+.new_arrival{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    grid-row-gap: 20px;
+}
+.new_arrival_icon{
+    padding-right: 20px;
+}
+.pd_name{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.pd_price{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*blog*/
+.ob_img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px 5px 0px 0px;
+    transition-duration: .5s;
+}
+.ob_img:hover{
+    transform: scale(1.2);
+}
+.blog_img_zoom{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 5px 5px 0px 0px;
+}
+.blog{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 40px;
+    grid-column-gap: 30px;
+}
+.blog_date{
+    color: orange;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.blog_text{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog div{
+    box-shadow: -3px 4px 12px rgb(212, 205, 205);
+}
+.readmore{
+    display: inline-block;
+    color: orange;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.available_image{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    background-image: url(../images/avn1.webp);
+}
+.available_image:hover{
+    background-image: url(../images/avnc1.webp);
+}
+.view_more{
+    display: inline-block;
+    color: orange;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* support */
+.support div p{
+    display: inline-block;
+    margin-left: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.support{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    padding: 35px;
+    background-color: whitesmoke;
+    align-items: center;
+
+}
+
+.support div p b{
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*footer*/
+
+.footer{
+    background-color: black;
+    padding-top: 50px;
+}
+.footer_nav{
+    font-family: 'Josefin Sans', sans-serif;
+    color: gray;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+.designed_by{
+    font-family: 'Josefin Sans', sans-serif;
+    color: gray;
+    margin-top: 20px;
+}
+.footer_icon{
+    color: gray;
+    display: inline-block;
+    margin: 20px 10px 50px;
+}
